@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftUIEducationApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainViewCoordinator()
         }
     }
 }
+
+
+
